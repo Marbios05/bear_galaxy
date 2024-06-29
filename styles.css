@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333; /* Color de texto oscuro */
+    text-align: center;
+}
+
+header {
+    background-color: #4b0082; /* Índigo oscuro */
+    padding: 1em 0;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #4682b4; /* Azul acero */
+}
+
+#descripcion, #tokenomica {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+footer {
+    padding: 1em 0;
+    background-color: #2f4f4f; /* Gris pizarra */
+    color: #ccc; /* Color de texto gris claro */
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+#advertencia {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#enlaces {
+    background-color: #4b0082; /* Índigo oscuro */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#enlaces a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#enlaces a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
